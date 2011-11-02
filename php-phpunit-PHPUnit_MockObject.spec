@@ -3,21 +3,21 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Mock Object library for PHPUnit
 Name:		php-phpunit-PHPUnit_MockObject
-Version:	1.0.9
+Version:	1.1.0
 Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.phpunit.de/get/%{pearname}-%{version}.tgz
-# Source0-md5:	4a1a5bab58f9225f41fab59d6c931737
+# Source0-md5:	158b177ccd0026a8183f631c54ce9cfc
 URL:		http://pear.phpunit.de/
 BuildRequires:	php-channel(pear.phpunit.de)
 BuildRequires:	php-packagexml2cl
-BuildRequires:	php-pear-PEAR >= 1:1.9.2
+BuildRequires:	php-pear-PEAR >= 1:1.9.4
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.571
 Requires:	php-channel(pear.phpunit.de)
 Requires:	php-pear
-Requires:	php-phpunit-Text_Template >= 1.0.0
+Requires:	php-phpunit-Text_Template >= 1.1.1
 Requires:	php-reflection
 Requires:	php-spl
 Suggests:	php-soap
