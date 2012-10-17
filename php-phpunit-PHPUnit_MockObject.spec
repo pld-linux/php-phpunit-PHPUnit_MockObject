@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Mock Object library for PHPUnit
 Name:		php-phpunit-PHPUnit_MockObject
-Version:	1.1.1
-Release:	2
+Version:	1.2.1
+Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.phpunit.de/get/%{pearname}-%{version}.tgz
-# Source0-md5:	60edd0b9f5d8d8b5318dbf73a44a656c
+# Source0-md5:	5e9d5d28fefc8d25719a83e3f111dda4
 URL:		http://pear.phpunit.de/
 BuildRequires:	php-channel(pear.phpunit.de)
 BuildRequires:	php-packagexml2cl
