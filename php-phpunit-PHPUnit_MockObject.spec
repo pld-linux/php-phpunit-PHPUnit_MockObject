@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	PHPUnit_MockObject
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Mock Object library for PHPUnit
 Name:		php-phpunit-PHPUnit_MockObject
 Version:	1.2.3
